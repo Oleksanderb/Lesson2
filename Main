@@ -1,0 +1,22 @@
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("Rectangle");
+		Rectangle r1= new Rectangle(8,12);
+		r1.P();
+		r1.S();
+		
+		
+		Rectangle r2=new Rectangle();
+		r2.P();
+		r2.S();
+		System.out.println();
+		System.out.println("Circle");
+		
+		Circle c1 = new Circle(11.1);
+		c1.Length();
+
+		Circle c2 = new Circle(12.12, 14.14);
+		c2.Square();
+	}
+	
+}
