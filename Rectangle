@@ -1,0 +1,22 @@
+public class Rectangle {
+
+	private int length;
+	private int width;
+	
+	Rectangle(){
+		this.length=10;
+		this.width=5;
+	}
+	Rectangle(int length, int width){
+		this.length = length;
+		this.width = width;
+	}
+	public void P () {
+		int P=length*2+width*2;
+		System.out.println("Perimetr= "+P);
+	}
+	public void S () {
+		int S=length*width;
+		System.out.println("Square= "+S);
+	}
+}
