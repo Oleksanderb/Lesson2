@@ -1,0 +1,24 @@
+public class Circle {
+	private double r;
+	private double d;
+
+	Circle(double d, double r) {
+		this.d = d;
+		this.r=r;
+	}
+
+	Circle(double r) {
+		this.r = r;
+		
+	}
+
+	public void Square() {
+		double S = 3.14 * r * r;
+		System.out.println("S = " + S);
+	}
+
+	public void Length() {
+		double L = 2 * 3.14 * r;
+		System.out.println("L = " + L);
+	}
+}
